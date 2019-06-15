@@ -16,7 +16,7 @@ class CreateCostumes <ActiveRecord::Migrate
       t.integer :number_of_costumes
       t.integer :number_of_employees
       t.string  :status
-      t.timestamp
+      t.timestamps
     end
   end
 end
