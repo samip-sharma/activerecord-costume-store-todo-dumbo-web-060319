@@ -2,6 +2,8 @@
 
 class HauntedHouses < ActiveRecord::Migration
   def change
-    create_table 
+    create_table :houses do |t|
+      
+    end
   end
 end
