@@ -11,12 +11,7 @@
 class CreateCostumes <ActiveRecord::Migrate
   def change
     create_table :costumes do |t|
-      t.string :name
-      t.string :location
-      t.integer :number_of_costumes
-      t.integer :number_of_employees
-      t.string  :status
-      t.timestamps
+   
     end
   end
 end
