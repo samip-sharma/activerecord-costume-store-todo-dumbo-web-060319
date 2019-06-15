@@ -7,3 +7,16 @@
 # Define a change method in which to do the migration
 # In this change method, create columns with the correct names and 
 # value types according to the spec
+
+class CreateCostumes <ActiveRecord::Migrate
+  def change
+    create_table :costumes do |t|
+      t.string :name
+      t.string :location
+      t.integer :number_of_costumes
+      t.integer :number_of_employees
+      t.string  :status
+      t.timestamp
+    end
+  end
+end
