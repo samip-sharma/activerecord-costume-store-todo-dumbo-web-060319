@@ -6,4 +6,6 @@
       # t.timestamps
       
       
-      class CostumeStore < ActiveRecord::Migration
+      class CostumeStore < ActiveRecord::Migration[4.2]
+        
+      end
