@@ -5,9 +5,10 @@ class HauntedHouses < ActiveRecord::Migration
     create_table :houses do |t|
        t.string :name
             t.string :name
-            t.integer :costume_inventory
-            t.integer :num_of_employees
-            t.string  :still_in_business
+            t.string :location
+            t.string :theme
+            t.integer :price
+            t.string  :family_friendly
             t.datetime :opening_time
             t.datetime :closing_time
       
