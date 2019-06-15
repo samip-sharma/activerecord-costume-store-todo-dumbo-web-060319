@@ -4,3 +4,6 @@
       # t.integer :number_of_employees
       # t.string  :status
       # t.timestamps
+      
+      
+      class CostumeStore < ActiveRecord::Migration
